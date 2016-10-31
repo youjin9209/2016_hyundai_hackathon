@@ -20,10 +20,10 @@ public class Basic_Move : MonoBehaviour {
 		//if(Input.anyKeyDown) {
 		//	Debug.Log("Pressed left click.");
 		//}
-		//if (Input.GetMouseButtonDown (0)) {
-		//	Debug.Log("Pressed left click.");
+		if (Input.GetMouseButtonDown (0)) {
+			Debug.Log("Pressed left click.");
 
-			//target = GetClickedObject();
+			target = GetClickedObject();
 			/*
 			if (target != null && true == target.Equals (gameObject)) {
 
@@ -32,9 +32,9 @@ public class Basic_Move : MonoBehaviour {
 			}
 			*/
 				
-		//} else if (Input.GetMouseButtonUp (0)) {
-		//	mouseState = false;
-		//}
+		} else if (Input.GetMouseButtonUp (0)) {
+			mouseState = false;
+		}
 		/*
 		if (true == mouseState) {
 			//clicked
